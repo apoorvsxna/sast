@@ -1,0 +1,5 @@
+rule:
+    pattern: console.log($A)
+    inside:
+      kind: function_declaration
+      stopBy: end
